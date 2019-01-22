@@ -29,7 +29,8 @@ describe('adder', function() {
     const badInputs = [
       ['a', 1],
       ['1', 2],
-      [2, false]
+      [2, false],
+      ['1', '2']
     ];
     // prove that an error is raised for bad inputs
     badInputs.forEach(function(input) {
